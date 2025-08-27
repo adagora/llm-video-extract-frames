@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Or newer like ES2022 for modern Node
+    "module": "NodeNext", // For ESM support in Node
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist", // Output compiled JS here
+    "rootDir": "./src", // Source TS files here
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // For better module interop
+    "skipLibCheck": true // Speeds up compilation
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
